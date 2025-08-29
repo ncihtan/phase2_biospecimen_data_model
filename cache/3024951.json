@@ -1,0 +1,479 @@
+{
+    "DataElement": {
+        "publicId": "3024951",
+        "version": "1",
+        "longName": "Pathology Specimen Section Thickness Value",
+        "shortName": "SPEC_SECT_THKN_VAL",
+        "definition": "Numeric value to describe the thickness of a slice to tissue taken from a biospecimen, measured in microns.",
+        "context": "SPOREs",
+        "origin": null,
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Application",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2010-03-15",
+        "endDate": null,
+        "changeDescription": "2/17/22 JK Designated for reuse by HTAN/SRRS Biospecimen upload DCT, Alt Name, AQT, HTAN/SRRS CSIs.  1/19/22 mr Added alt name, AQT, alt def, ref doc, CSI for MCL Biospecimen per DCT.   Curated to support GO Lung cancer trial at U Colorado.",
+        "administrativeNotes": null,
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "REEVESD",
+        "dateCreated": "2010-03-15",
+        "modifiedBy": "KNABLEJ",
+        "dateModified": "2022-02-22",
+        "DataElementConcept": {
+            "publicId": "3021164",
+            "version": "1",
+            "longName": "Pathology Specimen Section Thickness",
+            "shortName": "PATH_SPEC_SECT_THKN",
+            "definition": "A specialty concerned with the nature and cause of disease as expressed by changes in cellular or tissue structure and function caused by the disease process. (MSH98)_A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis.__A very thin slice (of tissue or mineral or other substance) for examination under a microscope._The dimension between two surfaces of an object, usually the smallest dimension as opposed to the width or the length: also, viscous consistency.",
+            "context": "SPOREs",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2010-03-09",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "REEVESD",
+            "dateCreated": "2010-03-09",
+            "modifiedBy": "SBR",
+            "dateModified": "2016-06-06",
+            "ObjectClass": {
+                "publicId": "2452696",
+                "version": "1",
+                "longName": "Pathology Specimen",
+                "shortName": "C18189:C19157",
+                "definition": "A specialty concerned with the nature and cause of disease as expressed by changes in cellular or tissue structure and function caused by the disease process. (MSH98):Specimen; a bit of tissue or blood or urine that is taken or used for research purposes.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-02-23",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "PWEST",
+                "dateCreated": "2006-02-23",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2006-02-23",
+                "Concepts": [
+                    {
+                        "longName": "Pathology",
+                        "conceptCode": "C18189",
+                        "definition": "The medical science, and specialty practice, concerned with all aspects of disease, but with special reference to the essential nature, causes, and development of abnormal conditions, as well as the structural and functional changes that result from the disease processes. Informally used to mean the result of such an examination.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Specimen",
+                        "conceptCode": "C19157",
+                        "definition": "A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "3021162",
+                "version": "1",
+                "longName": "Section Thickness",
+                "shortName": "C25668:C41145",
+                "definition": "A very thin slice (of tissue or mineral or other substance) for examination under a microscope.:The dimension between two surfaces of an object, usually the smallest dimension as opposed to the width or the length: also, viscous consistency.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2010-03-09",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "REEVESD",
+                "dateCreated": "2010-03-09",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2010-03-09",
+                "Concepts": [
+                    {
+                        "longName": "Section",
+                        "conceptCode": "C25668",
+                        "definition": "A very thin slice (of tissue or mineral or other substance) for examination under a microscope.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Thickness",
+                        "conceptCode": "C41145",
+                        "definition": "The dimension between two surfaces of an object, usually the smallest dimension as opposed to the width or the length: also, viscous consistency.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008547",
+                "version": "1",
+                "longName": "Specimen Characteristics",
+                "shortName": "SPEC_CHAR",
+                "definition": "attributes of a patient's laboratory sample, including the source, condition, and fixative.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "3024949",
+            "version": "1",
+            "longName": "Section Thickness Value",
+            "shortName": "SECT_THKN_VAL",
+            "definition": "A very thin slice (of tissue or mineral or other substance) for examination under a microscope._The dimension between two surfaces of an object, usually the smallest dimension as opposed to the width or the length: also, viscous consistency._A numerical quantity measured or assigned or computed.",
+            "context": "SPOREs",
+            "type": "Non-enumerated",
+            "dataType": "NUMBER",
+            "unitOfMeasure": "um",
+            "minLength": null,
+            "maxLength": "4",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": "1",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2010-03-15",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "REEVESD",
+            "dateCreated": "2010-03-15",
+            "modifiedBy": "REEVESD",
+            "dateModified": "2010-03-15",
+            "ConceptualDomain": {
+                "publicId": "2008547",
+                "version": "1",
+                "longName": "Specimen Characteristics",
+                "shortName": "SPEC_CHAR",
+                "definition": "attributes of a patient's laboratory sample, including the source, condition, and fixative.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "3024948",
+                "version": "1",
+                "longName": "Section Thickness Value",
+                "shortName": "C25668:C41145:C25712",
+                "definition": "A very thin slice (of tissue or mineral or other substance) for examination under a microscope.:The dimension between two surfaces of an object, usually the smallest dimension as opposed to the width or the length: also, viscous consistency.:A numerical quantity measured or assigned or computed.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2010-03-15",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "REEVESD",
+                "dateCreated": "2010-03-15",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2010-03-15",
+                "Concepts": [
+                    {
+                        "longName": "Section",
+                        "conceptCode": "C25668",
+                        "definition": "A very thin slice (of tissue or mineral or other substance) for examination under a microscope.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "2"
+                    },
+                    {
+                        "longName": "Thickness",
+                        "conceptCode": "C41145",
+                        "definition": "The dimension between two surfaces of an object, usually the smallest dimension as opposed to the width or the length: also, viscous consistency.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Value",
+                        "conceptCode": "C25712",
+                        "definition": "A numerical quantity measured or assigned or computed.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "2008601",
+                "version": "1",
+                "longName": "C3D Domain",
+                "context": "CCR",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "2811689",
+                        "version": "1",
+                        "longName": "SPOREs",
+                        "context": "CCR",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "2182125",
+                "version": "1",
+                "longName": "CCR Implementation",
+                "context": "CCR",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "2811673",
+                        "version": "1",
+                        "longName": "C3D",
+                        "context": "CCR",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "2939361",
+                "version": "1",
+                "longName": "DCTD (Division of Cancer Treatment and Diagnosis)",
+                "context": "NCIP",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "3232302",
+                        "version": "1",
+                        "longName": "In Situ Hybridization Biomarker Template",
+                        "context": "NCIP",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "2976812",
+                "version": "1",
+                "longName": "GO Trial",
+                "context": "SPOREs",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "2976834",
+                        "version": "1",
+                        "longName": "GO Trial",
+                        "context": "SPOREs",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "2989932",
+                        "version": "1",
+                        "longName": "GO New CDEs",
+                        "context": "SPOREs",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "3896529",
+                "version": "1",
+                "longName": "Consortia 2012 Studies",
+                "context": "DCP",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "4528054",
+                        "version": "1",
+                        "longName": "NWU2013-01-03",
+                        "context": "DCP",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "5280815",
+                        "version": "1",
+                        "longName": "NWU2015-06-04",
+                        "context": "DCP",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "5889180",
+                        "version": "1",
+                        "longName": "NWU2017-09-01",
+                        "context": "DCP",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "5855659",
+                "version": "1",
+                "longName": "Biospecimen",
+                "context": "MCL",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7018914",
+                        "version": "1",
+                        "longName": "Biospecimen CDEs",
+                        "context": "MCL",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "7639423",
+                "version": "1",
+                "longName": "SRRS-Standardized Repository of Reference Specimens",
+                "context": "HTAN",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7639046",
+                        "version": "1",
+                        "longName": "SRRS Biospecimen",
+                        "context": "HTAN",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "DCP",
+                "type": "USED_BY",
+                "context": "DCP"
+            },
+            {
+                "name": "caBIG",
+                "type": "USED_BY",
+                "context": "NCIP"
+            },
+            {
+                "name": "HTAN",
+                "type": "USED_BY",
+                "context": "HTAN"
+            },
+            {
+                "name": "SECTION_THICKNESS_VALUE",
+                "type": "HTAN Alt Name",
+                "context": "HTAN"
+            },
+            {
+                "name": "MCL",
+                "type": "USED_BY",
+                "context": "MCL"
+            },
+            {
+                "name": "section_thickness",
+                "type": "MCL Alt Name",
+                "context": "MCL"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "Thickness (um)",
+                "documentText": "Thickness (um)",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "SPOREs"
+            },
+            {
+                "documentName": "If sections of tissue, how thick are the sections (in microns)?",
+                "documentText": "If sections of tissue, how thick are the sections (in microns)?",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "NCIP"
+            },
+            {
+                "documentName": "DCP Text 1",
+                "documentText": "Average slice thickness (in mm)",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "DCP"
+            },
+            {
+                "documentName": "HTAN Term",
+                "documentText": "Section Thickness Micron Value",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "HTAN"
+            },
+            {
+                "documentName": "MCL-Biospecimen",
+                "documentText": "Thickness of a slice of tissue taken from a biospecimen, measured in microns (um).",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "MCL"
+            },
+            {
+                "documentName": "MCL-Template Name",
+                "documentText": "biospecimen_cdedictionary_v0-2_2021_12_13-metrics.xlsx",
+                "documentType": "Data Collection Template",
+                "url": "https://mcl.nci.nih.gov/resources/standards/mcl-cdes",
+                "context": "MCL"
+            }
+        ]
+    },
+    "apiResponse": {
+        "type": "S"
+    }
+}

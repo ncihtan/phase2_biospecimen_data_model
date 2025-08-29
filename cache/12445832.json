@@ -1,0 +1,1271 @@
+{
+    "DataElement": {
+        "publicId": "12445832",
+        "version": "1",
+        "longName": "Specimen Material Category",
+        "shortName": "11253405v1.00:12438805v1.00",
+        "definition": "The biospecimen grouping which describes the kind of material that forms the sample.",
+        "context": "CRDC",
+        "origin": "CDS:Cancer Data Service",
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2023-01-25",
+        "endDate": null,
+        "changeDescription": null,
+        "administrativeNotes": "3/11/25 Added CRDC alts, CSI, and promoted RS from Appl to Standard. This CDE was already Released. mr; \r\n3/11/25 Removed 'Analyte' PV since have not been able to confirm a node use case. All other PVs are types of analytes, therefore Analyte does not fit here. mr; \r\n11/14/24 Added C3DC alts, CSI, Table per C3DC New Variables xls. mr; \r\n11/12/24 To clarify where the extra PVs came from: The CDS actual values are in a tsv file called sample.sample_type. mr\r\n10/29/24 Added 7 PVs per CDS actual data counts. mr; \r\n10/9/24 corrected typo in CDE LN to remove redundant \"biospecimen\". jk;  \r\n2/6/24 Added CDS alt def and CSI. BF;\r\n1/26/24 Upd VD origin to CDS, and swapped out a postcoordinated PV for a precoordinated, semantically equivalent, since concept PV. mr; \r\n12/27/23 Removed \"Other\" PV per Nov 2023 PCDC-U of Chicago/Mei Li review. This CDE is text component of Uberon terms. mr; \r\n9/1/23 upd Origin to reflect HTAN/CDS source. jk; \r\n4/6/23 Added PCDC parent CSI. mr; \r\n3/1/23 Edited CDS alt name to sample type. mr; \r\n2/1/23 Per Amanda's 1/31/23 email, CDE released for CDS use. jk \r\n1/25/23 created for HTAN content being submitted to CRDC CDS based on 1/24/23 meeting. HTAN PVs added as alternate VMs. jk",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "JKNABLE",
+        "dateCreated": "2023-01-25",
+        "modifiedBy": "SOKKERL",
+        "dateModified": "2025-05-29",
+        "DataElementConcept": {
+            "publicId": "11253405",
+            "version": "1",
+            "longName": "Specimen Material",
+            "shortName": "2859635v1.00:2223243v1.00",
+            "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.:The tangible substance that goes into the makeup of a physical object.",
+            "context": "CRDC",
+            "origin": "CRDC:Cancer Research Data Commons",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-09-15",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "2/20/24 AI released per SME/Amanda Bell approval.ls2/1/23 released for reuse in CDS CDE. jk;  11/28/22 Changed property from Type to Material. mr;  11/17/22 Approved by Wendy, used in a CRDC DSS Standard, updated WF/RS to Released/Qualified per CRDC DSS. jk; 9/15/22 Created for CRDC per RFC12. mr;",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2022-09-15",
+            "modifiedBy": "SOKKERL",
+            "dateModified": "2024-02-20",
+            "ObjectClass": {
+                "publicId": "2859635",
+                "version": "1",
+                "longName": "Biospecimen",
+                "shortName": "C70699",
+                "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2009-04-01",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_TAVERNA",
+                "dateCreated": "2009-04-01",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2009-04-01",
+                "Concepts": [
+                    {
+                        "longName": "Biospecimen",
+                        "conceptCode": "C70699",
+                        "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "2514542",
+                "version": "1",
+                "longName": "Material",
+                "shortName": "C48187",
+                "definition": "The tangible substance that goes into the makeup of a physical object.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2006-08-22",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "AYANLOWA",
+                "dateCreated": "2006-08-22",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2006-08-22",
+                "Concepts": [
+                    {
+                        "longName": "Material",
+                        "conceptCode": "C48187",
+                        "definition": "The tangible substance that goes into the makeup of a physical object.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008547",
+                "version": "1",
+                "longName": "Specimen Characteristics",
+                "shortName": "SPEC_CHAR",
+                "definition": "attributes of a patient's laboratory sample, including the source, condition, and fixative.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "12438805",
+            "version": "1",
+            "longName": "Biospecimen Category",
+            "shortName": "12438805v1.00",
+            "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products._A grouping of items based on some commonality or by user defined characteristics.",
+            "context": "CRDC",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "50",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "CDS:Cancer Data Service",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2023-01-25",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "3/11/25 Removed 'Analyte' PV since have not been able to confirm a node use case. All other PVs are types of analytes, therefore Analyte does not seem to belong. mr; \r\n10/29/24 Added 7 PVs per CDA actual data counts.\r\n10/10/24 Added PVs Unk, NR for C3DC. mr; \r\n1/26/24 Upd Origin to CDS and to swap concept for semantically equivalent precoordinated in one PV. mr; \r\n4/3/23 Upd qualifier to C70699 for consistency w CRDC best practices. Added origin = CRDC. mr; \r\n2/1/23 released per CDS SME (Amanda)'s email 1/31/23. jk",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "JKNABLE",
+            "dateCreated": "2023-01-25",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2025-03-11",
+            "PermissibleValues": [
+                {
+                    "publicId": "9110687",
+                    "value": "Blood",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "3111300",
+                        "version": "1",
+                        "longName": "Blood",
+                        "shortName": "3111300",
+                        "definition": "Blood circulating throughout the body.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2010-06-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2010-06-18",
+                        "modifiedBy": "ZHWENDY",
+                        "dateModified": "2024-04-15",
+                        "Concepts": [
+                            {
+                                "longName": "Blood",
+                                "conceptCode": "C12434",
+                                "definition": "A liquid tissue; its major function is to transport oxygen throughout the body. It also supplies the tissues with nutrients, removes waste products, and contains various components of the immune system defending the body against infection. Several hormones also travel in the blood.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110688",
+                    "value": "Ascites",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "5446318",
+                        "version": "1",
+                        "longName": "Ascites",
+                        "shortName": "5446318",
+                        "definition": "The accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2016-09-02",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2016-09-02",
+                        "modifiedBy": "ZHWENDY",
+                        "dateModified": "2024-04-15",
+                        "Concepts": [
+                            {
+                                "longName": "Peritoneal Effusion",
+                                "conceptCode": "C2885",
+                                "definition": "The accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110689",
+                    "value": "Bone Marrow",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "3227901",
+                        "version": "1",
+                        "longName": "Bone Marrow",
+                        "shortName": "3227901",
+                        "definition": "The soft, sponge-like tissue in the center of bones that produces white blood cells, red blood cells, and platelets.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2011-04-14",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2011-04-14",
+                        "modifiedBy": "KUMMEROA",
+                        "dateModified": "2025-02-11",
+                        "Concepts": [
+                            {
+                                "longName": "Bone Marrow",
+                                "conceptCode": "C12431",
+                                "definition": "The tissue occupying the spaces of bone. It consists of blood vessel sinuses and a network of hematopoietic cells which give rise to the red cells, white cells, and megakaryocytes.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110690",
+                    "value": "Cells",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "3111299",
+                        "version": "1",
+                        "longName": "Cell",
+                        "shortName": "3111299",
+                        "definition": "The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2010-06-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2010-06-18",
+                        "modifiedBy": "ZHWENDY",
+                        "dateModified": "2024-04-22",
+                        "Concepts": [
+                            {
+                                "longName": "Cell",
+                                "conceptCode": "C12508",
+                                "definition": "The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110691",
+                    "value": "Stool",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "2582195",
+                        "version": "1",
+                        "longName": "Feces",
+                        "shortName": "2582195v1.00",
+                        "definition": "The material discharged from the bowel during defecation.  It consists of undigested food, intestinal mucus, epithelial cells, and bacteria.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2006-11-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "CURTIST",
+                        "dateCreated": "2006-11-27",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2024-10-30",
+                        "Concepts": [
+                            {
+                                "longName": "Feces",
+                                "conceptCode": "C13234",
+                                "definition": "The material discharged from the bowel during defecation.  It consists of undigested food, intestinal mucus, epithelial cells, and bacteria.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110692",
+                    "value": "Body Fluid or Substance",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "3212369",
+                        "version": "1",
+                        "longName": "Body Fluid or Substance",
+                        "shortName": "3212369",
+                        "definition": "Liquid and semi liquid substances produced by living organisms to fulfill specific functions or excreted as waste; does not include hormones or enzymes.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2011-03-29",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2011-03-29",
+                        "modifiedBy": "JKNABLE",
+                        "dateModified": "2023-01-25",
+                        "Concepts": [
+                            {
+                                "longName": "Body Fluid or Substance",
+                                "conceptCode": "C13236",
+                                "definition": "Material produced by living organisms; it can be a necessary constituent of, or product of an organismal process.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110694",
+                    "value": "Sputum",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "2912067",
+                        "version": "1",
+                        "longName": "Sputum",
+                        "shortName": "2912067",
+                        "definition": "Material containing mucus, cellular debris, microorganisms and sometimes blood or pus.  It is ejected through the mouth from the lungs, bronchi, and trachea.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2009-06-30",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "MAESKEB",
+                        "dateCreated": "2009-06-30",
+                        "modifiedBy": "JKNABLE",
+                        "dateModified": "2023-01-25",
+                        "Concepts": [
+                            {
+                                "longName": "Sputum",
+                                "conceptCode": "C13278",
+                                "definition": "Material containing mucus, cellular debris, microorganisms and sometimes blood or pus.  It is ejected through the mouth from the lungs, bronchi, and trachea.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110696",
+                    "value": "Urine",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "3111296",
+                        "version": "1",
+                        "longName": "Urine",
+                        "shortName": "3111296",
+                        "definition": "The fluid that is excreted by the kidneys.  It is stored in the bladder and discharged through the urethra.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2010-06-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2010-06-18",
+                        "modifiedBy": "ZHWENDY",
+                        "dateModified": "2024-04-15",
+                        "Concepts": [
+                            {
+                                "longName": "Urine",
+                                "conceptCode": "C13283",
+                                "definition": "The fluid that is excreted by the kidneys.  It is stored in the bladder and discharged through the urethra.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9110702",
+                    "value": "Tissue",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-01-25",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "JKNABLE",
+                    "dateCreated": "2023-01-25",
+                    "modifiedBy": "JKNABLE",
+                    "dateModified": "2023-01-25",
+                    "ValueMeaning": {
+                        "publicId": "12445825",
+                        "version": "1",
+                        "longName": "Tissue",
+                        "shortName": "12445825v1.00",
+                        "definition": "An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2023-01-25",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "JKNABLE",
+                        "dateCreated": "2023-01-25",
+                        "modifiedBy": "JKNABLE",
+                        "dateModified": "2023-01-25",
+                        "Concepts": [
+                            {
+                                "longName": "Tissue",
+                                "conceptCode": "C12801",
+                                "definition": "An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9154405",
+                    "value": "Mouth Rinse",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-01-26",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-01-26",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-01-26",
+                    "ValueMeaning": {
+                        "publicId": "13374555",
+                        "version": "1",
+                        "longName": "Mouth Rinse Specimen",
+                        "shortName": "13374555v1.00",
+                        "definition": "A sample consisting of biological material from the buccal cavity. A collection solution is introduced into the mouth, swished around, and then collected.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2023-04-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "JKNABLE",
+                        "dateCreated": "2023-04-18",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2024-10-29",
+                        "Concepts": [
+                            {
+                                "longName": "Mouth Rinse Specimen",
+                                "conceptCode": "C198712",
+                                "definition": "A sample consisting of biological material from the buccal cavity. A collection solution is introduced into the mouth, swished around, and then collected.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174741",
+                    "value": "Not Reported",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-10",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-10",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-10",
+                    "ValueMeaning": {
+                        "publicId": "5612322",
+                        "version": "1",
+                        "longName": "Not Reported",
+                        "shortName": "5612322v1.00",
+                        "definition": "Not provided or available.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-01-03",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n10/10/23 changed Long Name from \"Not Stated\" to match NCIt Preferred name and current caDSR concept Long Name of \"Not Reported\" per Brenda.Janice . LS",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-01-03",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Reported",
+                                "conceptCode": "C43234",
+                                "definition": "Not provided or available.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174742",
+                    "value": "Unknown",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-10",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-10",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-10",
+                    "ValueMeaning": {
+                        "publicId": "2570901",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "2570901v1.00",
+                        "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2004-06-21",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "SBR",
+                        "dateCreated": "2004-06-21",
+                        "modifiedBy": "ZHWENDY",
+                        "dateModified": "2024-09-20",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9175895",
+                    "value": "Xenograft",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-29",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "5424196",
+                        "version": "1",
+                        "longName": "Xenograft",
+                        "shortName": "5424196",
+                        "definition": "The transfer of cells, tissues, or organs from a donor into a recipient of another species.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2016-08-18",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2016-08-18",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Xenograft",
+                                "conceptCode": "C12932",
+                                "definition": "Cells, tissues, or organs from a donor that are transplanted into a recipient of another species.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9175896",
+                    "value": "Skin",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-29",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "4363644",
+                        "version": "1",
+                        "longName": "Skin",
+                        "shortName": "4363644",
+                        "definition": "An organ that constitutes the external surface of the body.  It consists of the epidermis, dermis, and skin appendages.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2014-06-24",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "MAESKEB",
+                        "dateCreated": "2014-06-24",
+                        "modifiedBy": "ZHWENDY",
+                        "dateModified": "2024-04-15",
+                        "Concepts": [
+                            {
+                                "longName": "Skin",
+                                "conceptCode": "C12470",
+                                "definition": "An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9175897",
+                    "value": "Saliva",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-29",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "4321087",
+                        "version": "1",
+                        "longName": "Saliva",
+                        "shortName": "4321087",
+                        "definition": "The watery fluid in the mouth made by the salivary glands. Saliva moistens food to help digestion and it helps protect the mouth against infections.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2014-05-16",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COOPERM",
+                        "dateCreated": "2014-05-16",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Saliva",
+                                "conceptCode": "C13275",
+                                "definition": "The watery fluid in the mouth made by the salivary glands. Saliva moistens food to help digestion and it helps protect the mouth against infections.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9175898",
+                    "value": "RNA",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-29",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "2581712",
+                        "version": "1",
+                        "longName": "Ribonucleic Acid",
+                        "shortName": "2581712v1.00",
+                        "definition": "Single-stranded long chain of nucleotides containing ribose. It is the end product of DNA transcription by the enzyme RNA polymerase. It is essential in protein synthesis.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2006-11-10",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "UMLLOADER_CGOM",
+                        "dateCreated": "2006-10-20",
+                        "modifiedBy": "GDEEN",
+                        "dateModified": "2023-08-01",
+                        "Concepts": [
+                            {
+                                "longName": "Ribonucleic Acid",
+                                "conceptCode": "C812",
+                                "definition": "Single-stranded long chain of nucleotides containing ribose. It is the end product of DNA transcription by the enzyme RNA polymerase. It is essential in protein synthesis.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9175899",
+                    "value": "DNA",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-29",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "2581946",
+                        "version": "1",
+                        "longName": "DNA",
+                        "shortName": "2581946",
+                        "definition": "A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2006-11-15",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "CURTIST",
+                        "dateCreated": "2006-11-15",
+                        "modifiedBy": "DWARZEL",
+                        "dateModified": "2015-12-15",
+                        "Concepts": [
+                            {
+                                "longName": "DNA",
+                                "conceptCode": "C449",
+                                "definition": "A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9175900",
+                    "value": "Central Nervous System",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-29",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "2558476",
+                        "version": "1",
+                        "longName": "Central Nervous System",
+                        "shortName": "2558476",
+                        "definition": "The main information-processing organs of the nervous system, consisting of the brain, spinal cord, and meninges.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2002-02-13",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "SBR",
+                        "dateCreated": "2002-02-13",
+                        "modifiedBy": "KUMMEROA",
+                        "dateModified": "2024-05-31",
+                        "Concepts": [
+                            {
+                                "longName": "Central Nervous System",
+                                "conceptCode": "C12438",
+                                "definition": "The part of the nervous system that consists of the brain, spinal cord, and meninges.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9175901",
+                    "value": "Cell Line",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-29",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-29",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-29",
+                    "ValueMeaning": {
+                        "publicId": "3081866",
+                        "version": "1",
+                        "longName": "Cell Line",
+                        "shortName": "3081866",
+                        "definition": "A permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2010-05-04",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2010-05-04",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Cell Line",
+                                "conceptCode": "C16403",
+                                "definition": "A permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2008547",
+                "version": "1",
+                "longName": "Specimen Characteristics",
+                "shortName": "SPEC_CHAR",
+                "definition": "attributes of a patient's laboratory sample, including the source, condition, and fixative.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "13300646",
+                "version": "1",
+                "longName": "Biospecimen Category",
+                "shortName": "13300646v1.00",
+                "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products._A grouping of items based on some commonality or by user defined characteristics.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2023-04-03",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COLBERTM",
+                "dateCreated": "2023-04-03",
+                "modifiedBy": "COLBERTM",
+                "dateModified": "2023-04-03",
+                "Concepts": [
+                    {
+                        "longName": "Biospecimen",
+                        "conceptCode": "C70699",
+                        "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Category",
+                        "conceptCode": "C25372",
+                        "definition": "A grouping of items based on some commonality or by user defined characteristics.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "7576399",
+                "version": "1",
+                "longName": "HTAN Biospecimen CDEs",
+                "context": "HTAN",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7577840",
+                        "version": "1",
+                        "longName": "Tier 2 Assay-specific",
+                        "context": "HTAN",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "8064110",
+                "version": "1",
+                "longName": "GC (General Commons)",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12177460",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "14470388",
+                        "version": "1",
+                        "longName": "Imaging",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10466053",
+                        "version": "1",
+                        "longName": "Specimen",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "11518160",
+                "version": "1",
+                "longName": "CTDC (Clinical and Translational Data Commons)",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14413707",
+                        "version": "1",
+                        "longName": "CTDC Model",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "14413713",
+                        "version": "1",
+                        "longName": "Biospecimen",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "12173174",
+                "version": "1",
+                "longName": "PCDC (Pediatric Cancer Data Commons Aggregated Dictionary)",
+                "context": "Pediatric Cancer",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12173177",
+                        "version": "1",
+                        "longName": "Testing",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "12173192",
+                        "version": "1",
+                        "longName": "Laboratory Test",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "15180603",
+                "version": "1",
+                "longName": "C3DC (Childhood Cancer Clinical Data Commons)",
+                "context": "Pediatric Cancer",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "15180605",
+                        "version": "1",
+                        "longName": "Testing",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "15180607",
+                        "version": "1",
+                        "longName": "Laboratory Test",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "sample_type_category",
+                "type": "GC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "SPECIMEN",
+                "type": "PCDC Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "specimen_category",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "specimen",
+                "type": "CTDC Table",
+                "context": "CRDC"
+            },
+            {
+                "name": "specimen",
+                "type": "C3DC Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Laboratory Test",
+                "type": "C3DC Table",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Specimen Material Category",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Specimen Category",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "CRDC"
+            }
+        ]
+    },
+    "apiResponse": {
+        "type": "S"
+    }
+}

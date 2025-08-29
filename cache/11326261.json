@@ -1,0 +1,511 @@
+{
+    "DataElement": {
+        "publicId": "11326261",
+        "version": "1",
+        "longName": "Specimen Tumor Tissue ICD-O-3 Morphology Code",
+        "shortName": "11325761v1.00:11326260v1.00",
+        "definition": "The microscopic anatomy of normal and abnormal cells and tissues of the specimen as captured in the morphology codes of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3). Example - 8010/0",
+        "context": "CRDC",
+        "origin": "CRDC:Cancer Research Data Commons",
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2022-09-27",
+        "endDate": null,
+        "changeDescription": null,
+        "administrativeNotes": "5/21/25 Classified in GDC Candidate CSI, added alt name, alt def, per June 2025 GDC DD. sl;\r\n8/8/23 Alt Name for CDE with source of \u201cDSS\u201d in the CTDC data model. BF;6/8/23 Removed PCDC HIST_ICD_O_MORPH_CODE CSI and alts. PCDC is now using DDE component CDE 13606049 Diagnosis Morphology ICD-O-3 Code. mr;\r\n5/4/23:classified and added CTDC ALTname for ECOG/DD. LS 5/1/23 Corrected typo in CRDC alt name. mr\r\n4/6/23 Added PCDC parent CSI. mr;\r\n2/23/23 Changed ref doc Coding Instr to newly added Instruction. mr;\r\n2/20/23 Added SDO alt name Code. mr; \r\n1/30/23 Added CRDC Example ref doc. mr;\r\n1/27/23 Removed 'tissue' from CRDC alt  name per Smita/CRDC DSS. mr;\r\n1/19/23 Added CDS alt def; removed general CDS CSI, added CDS|Diagnosis CSI; per metadata template. mr\r\n1/9/23 Added 'Code' to CRDC alt name per spreadsheet from Smita. mr;\r\n12/27/22 Changed def to 'as captured in'. mr;\r\n11/18/22 Edited def to align w semantics. Added CRDC def as alt def. mr;\r\n11/7/22 corrected typo in PQT. jk; 10/16/22 Released per email from Wendy Ver Hoef 10/14/22 1:09pm. mr;  9/27/22 Created per CRDC DSS RFC 13. mr;",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COLBERTM",
+        "dateCreated": "2022-09-27",
+        "modifiedBy": "SLAUER",
+        "dateModified": "2025-05-21",
+        "DataElementConcept": {
+            "publicId": "11325761",
+            "version": "1",
+            "longName": "Specimen Tumor Tissue Morphology",
+            "shortName": "2859635v1.00:11325760v1.00",
+            "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.:A tumor sample, or entire tumor that is removed for microscopic examination._The science of the form and structure of organisms (plants, animals, and other forms of life), or of their parts, and the study or science of the same.  In pathology, the specific appearance of cells and tissues (normal and abnormal) under the light or electron microscope.",
+            "context": "CRDC",
+            "origin": "CRDC:Cancer Research Data Commons",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Qualified",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-09-27",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "10/16/22 Released per Wendy Ver Hoef email 10/14/22 1:09pm. mr; \r\n9/27/22 Created for CRDC DSS per RFC13. mr;",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2022-09-27",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2022-10-16",
+            "ObjectClass": {
+                "publicId": "2859635",
+                "version": "1",
+                "longName": "Biospecimen",
+                "shortName": "C70699",
+                "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2009-04-01",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_TAVERNA",
+                "dateCreated": "2009-04-01",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2009-04-01",
+                "Concepts": [
+                    {
+                        "longName": "Biospecimen",
+                        "conceptCode": "C70699",
+                        "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "11325760",
+                "version": "1",
+                "longName": "Tumor Tissue Morphology",
+                "shortName": "C18009:C17943",
+                "definition": "A tumor sample, or entire tumor that is removed for microscopic examination._The science of the form and structure of organisms (plants, animals, and other forms of life), or of their parts, and the study or science of the same.  In pathology, the specific appearance of cells and tissues (normal and abnormal) under the light or electron microscope.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2022-09-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COLBERTM",
+                "dateCreated": "2022-09-27",
+                "modifiedBy": "COLBERTM",
+                "dateModified": "2022-09-27",
+                "Concepts": [
+                    {
+                        "longName": "Tumor Tissue Sample",
+                        "conceptCode": "C18009",
+                        "definition": "Tissue sample that contains an abnormal cellular infiltrate forming a solid mass. The abnormal cellular component can be benign or malignant. Tumor samples are obtained for microscopic examination and/or molecular analysis.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Morphology",
+                        "conceptCode": "C17943",
+                        "definition": "The science of the form and structure of organisms (plants, animals, and other forms of life), or of their parts, and the study or science of the same.  In pathology, the specific appearance of cells and tissues (normal and abnormal) under the light or electron microscope.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008537",
+                "version": "1",
+                "longName": "Diagnosis",
+                "shortName": "DX",
+                "definition": "the process of identifying a disease by the signs and symptoms (NCI Glossary).",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-17",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-17",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "11326260",
+            "version": "1",
+            "longName": "ICD-O-3 Morphology Code",
+            "shortName": "11326260v1.00",
+            "definition": "The third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.",
+            "context": "CRDC",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "25",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "CRDC:Cancer Research Data Commons",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Qualified",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-09-27",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": "7/15/24 Upd PV link since old one had been deprecated. mr; \r\n1/24/23 Released per CRDC DSS. mr;\r\n12/6/22 Changed to enumerated and added single PV pointing to ICD-O-3. Increased max len to allow for PV. mr; \r\n11/17/22 Increased max len to accommodate ICD-O-3 format. Removed dup phrase in def. mr; \r\n10/16/22 Released per CRDC DSS. Edited LN to use ICD-O-3 instead of spelled out. mr; \r\n9/27/22 Created per CRDC DSS RFC 13. mr; 9/28/22 Added max length 5. mr;",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2022-09-27",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2024-07-15",
+            "PermissibleValues": [
+                {
+                    "publicId": "9109699",
+                    "value": "http://www.iacr.com.fr/index.php?option=com_content&view=category&layout=blog&id=100&Itemid=577",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2022-12-06",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2022-12-06",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-07-15",
+                    "ValueMeaning": {
+                        "publicId": "12126010",
+                        "version": "1",
+                        "longName": "International Classification of Diseases for Oncology, Third Edition",
+                        "shortName": "12126010v1.00",
+                        "definition": "The third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2022-12-06",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2022-12-06",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2022-12-06",
+                        "Concepts": [
+                            {
+                                "longName": "International Classification of Diseases for Oncology, Third Edition",
+                                "conceptCode": "C87061",
+                                "definition": "The third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2008551",
+                "version": "1",
+                "longName": "Assessments",
+                "shortName": "ASSESS",
+                "definition": "evaluations of the patient and the patient's disease.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "11327165",
+                "version": "1",
+                "longName": "International Classification of Diseases for Oncology, Third Edition Morphology Code",
+                "shortName": "11327165v1.00",
+                "definition": "The third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms._The science of the form and structure of organisms (plants, animals, and other forms of life), or of their parts, and the study or science of the same.  In pathology, the specific appearance of cells and tissues (normal and abnormal) under the light or electron microscope._A symbol or combination of symbols which is assigned to the members of a collection.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2022-09-28",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COLBERTM",
+                "dateCreated": "2022-09-28",
+                "modifiedBy": "COLBERTM",
+                "dateModified": "2022-09-28",
+                "Concepts": [
+                    {
+                        "longName": "International Classification of Diseases for Oncology, Third Edition",
+                        "conceptCode": "C87061",
+                        "definition": "The third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "2"
+                    },
+                    {
+                        "longName": "Morphology",
+                        "conceptCode": "C17943",
+                        "definition": "The science of the form and structure of organisms (plants, animals, and other forms of life), or of their parts, and the study or science of the same.  In pathology, the specific appearance of cells and tissues (normal and abnormal) under the light or electron microscope.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Code",
+                        "conceptCode": "C25162",
+                        "definition": "A symbol or combination of symbols which is assigned to the members of a collection.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "8064110",
+                "version": "1",
+                "longName": "GC (General Commons)",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12177497",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "10429357",
+                "version": "1",
+                "longName": "GDC (Genomic Data Commons)",
+                "context": "CRDC",
+                "workflowStatus": "DRAFT NEW",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14506028",
+                        "version": "1",
+                        "longName": "Candidate New GDC CDEs",
+                        "context": "CRDC",
+                        "workflowStatus": "DRAFT NEW",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10466053",
+                        "version": "1",
+                        "longName": "Specimen",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "10466054",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "11518160",
+                "version": "1",
+                "longName": "CTDC (Clinical and Translational Data Commons)",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "13484613",
+                        "version": "1",
+                        "longName": "MATCHBox",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "13484614",
+                        "version": "1",
+                        "longName": "ECOG-ACRIN DD",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "14413713",
+                        "version": "1",
+                        "longName": "Biospecimen",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "12173174",
+                "version": "1",
+                "longName": "PCDC (Pediatric Cancer Data Commons Aggregated Dictionary)",
+                "context": "Pediatric Cancer",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "12173178",
+                        "version": "1",
+                        "longName": "Disease Attributes",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "12173181",
+                        "version": "1",
+                        "longName": "Events",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "12173227",
+                        "version": "1",
+                        "longName": "Secondary Malignant Neoplasm",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "14733231",
+                "version": "1",
+                "longName": "CCDI Federation CDEs",
+                "context": "Pediatric Cancer",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14782405",
+                        "version": "1",
+                        "longName": "Specimen",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "ICD-O-3 Morphology Code",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "morphology",
+                "type": "GC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "Code",
+                "type": "SDO Alt Name",
+                "context": "NCIP"
+            },
+            {
+                "name": "SMN_ICD_O_MORPH",
+                "type": "PCDC Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "Primary_ICD_O_Morphology",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "icd_o_3_tissue_morphology",
+                "type": "CTDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "ICD_O morphology code & term",
+                "type": "CCDI-Fed Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "morphology",
+                "type": "GDC Alt Name",
+                "context": "GDC"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "ICD-O-3 Tissue Morphology",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "CRDC"
+            },
+            {
+                "documentName": "CRDC Instruction",
+                "documentText": "1.\tGo to http://apps.who.int/classifications/apps/icd/ClassificationDownload/DLArea/Download.aspx \r\n2.\tCreate and activate account.\r\n3.\tGo back to URL in step 1, log in, and click on the ICD-O-3 link in the left hand column, which downloads the \"ICD-O-3_CSV-metadata.zip\" file.\r\n4.\tUnzip the file, use the text file named \u201cMorphenglish.txt\" for the ICD-O-3 codes.",
+                "documentType": "Instructions",
+                "url": "http://apps.who.int/classifications/apps/icd/ClassificationDownload/DLArea/Download.aspx",
+                "context": "CRDC"
+            },
+            {
+                "documentName": "CRDC SDO Reference",
+                "documentText": "ICD-O-3",
+                "documentType": "REFERENCE",
+                "url": "http://apps.who.int/classifications/apps/icd/ClassificationDownload/DLArea/Download.aspx",
+                "context": "CRDC"
+            },
+            {
+                "documentName": "CRDC Example",
+                "documentText": "8000/0",
+                "documentType": "EXAMPLE",
+                "url": null,
+                "context": "CRDC"
+            }
+        ]
+    },
+    "apiResponse": {
+        "type": "S"
+    }
+}

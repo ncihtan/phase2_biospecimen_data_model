@@ -1,0 +1,348 @@
+{
+    "DataElement": {
+        "publicId": "5432602",
+        "version": "2",
+        "longName": "Specimen Tissue Sample Longest Dimension Millimeter Measurement",
+        "shortName": "longest_dimension",
+        "definition": "Numeric value that represents the longest dimension of the sample, measured in millimeters.",
+        "context": "GDC",
+        "origin": null,
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2016-08-26",
+        "endDate": null,
+        "changeDescription": "Created for initial GDC new CDE request. mc 8/26/16",
+        "administrativeNotes": "7/8/25 Added RCI CSI per RCI CRF Questions 2025-06-30-metrics. sl;\r\n5/29/25 Versioned to 2.0 to update OC to Specimen C70699 for Code Map. mr;  \r\n5/22/25 Added addt't alt name per June 2025 GDC DD. sl;\r\n5/21/25 Classified in GDC Candidate CSI, added alt names per June 2025 GDC DD. Added 1 GDC alt def. Did not add 2nd GDC alt def because included cm, CDE in mm. sl;\r\n2/6/23 updated RS to \"Standard\" per Smita, reused as a CRDC DSS data element. jk;  \r\n9/14/22 added CRDC alt definition per DSS RFC final PPT.",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COLBERTM",
+        "dateCreated": "2025-05-29",
+        "modifiedBy": "SLAUER",
+        "dateModified": "2025-07-08",
+        "DataElementConcept": {
+            "publicId": "5431852",
+            "version": "2",
+            "longName": "Specimen Tissue Sample Longest Dimension",
+            "shortName": "2859635v1.00:16197366v1.00",
+            "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.:A piece of tissue removed from an organism for examination, analysis, or propagation._Having the greater length of two or the greatest length of several._The magnitude of something in a particular direction, especially length or width or height.",
+            "context": "GDC",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2016-08-25",
+            "endDate": null,
+            "changeDescription": "Created for initial GDC new CDE request. mc 8/25/16",
+            "administrativeNotes": "5/29/25 Versioned to 2.0 to update OC to Specimen C70699  for Code Map. mr;",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COLBERTM",
+            "dateCreated": "2025-05-29",
+            "modifiedBy": "SLAUER",
+            "dateModified": "2025-07-08",
+            "ObjectClass": {
+                "publicId": "2859635",
+                "version": "1",
+                "longName": "Biospecimen",
+                "shortName": "C70699",
+                "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2009-04-01",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_TAVERNA",
+                "dateCreated": "2009-04-01",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2009-04-01",
+                "Concepts": [
+                    {
+                        "longName": "Biospecimen",
+                        "conceptCode": "C70699",
+                        "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "16197366",
+                "version": "1",
+                "longName": "Tissue Sample Longest Dimension",
+                "shortName": "C19697:C25558:C25483",
+                "definition": "A piece of tissue removed from an organism for examination, analysis, or propagation._Having the greater length of two or the greatest length of several._The magnitude of something in a particular direction, especially length or width or height.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2025-05-29",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COLBERTM",
+                "dateCreated": "2025-05-29",
+                "modifiedBy": "COLBERTM",
+                "dateModified": "2025-05-29",
+                "Concepts": [
+                    {
+                        "longName": "Tissue Sample",
+                        "conceptCode": "C19697",
+                        "definition": "A piece of tissue removed from an organism for examination, analysis, or propagation.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "2"
+                    },
+                    {
+                        "longName": "Longest",
+                        "conceptCode": "C25558",
+                        "definition": "Having the greater length of two or the greatest length of several.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Dimension",
+                        "conceptCode": "C25483",
+                        "definition": "The magnitude of something in a particular direction, especially length or width or height.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008547",
+                "version": "1",
+                "longName": "Specimen Characteristics",
+                "shortName": "SPEC_CHAR",
+                "definition": "attributes of a patient's laboratory sample, including the source, condition, and fixative.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "5430791",
+            "version": "1",
+            "longName": "Millimeter Measurement",
+            "shortName": "5430791v1.0",
+            "definition": "Annotation used to indicate the size or magnitude of something that was determined by comparison to a standard.",
+            "context": "GDC",
+            "type": "Non-enumerated",
+            "dataType": "NUMBER",
+            "unitOfMeasure": "mm",
+            "minLength": "4",
+            "maxLength": "6",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": "2",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2016-08-24",
+            "endDate": null,
+            "changeDescription": "Created for initial set of GDC new CDEs. mc 8/24/16",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COOPERM",
+            "dateCreated": "2016-08-24",
+            "modifiedBy": "SLAUER",
+            "dateModified": "2025-07-08",
+            "ConceptualDomain": {
+                "publicId": "2008547",
+                "version": "1",
+                "longName": "Specimen Characteristics",
+                "shortName": "SPEC_CHAR",
+                "definition": "attributes of a patient's laboratory sample, including the source, condition, and fixative.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "2184312",
+                "version": "1",
+                "longName": "Measurement",
+                "shortName": "C25209",
+                "definition": "Measurement; the size or magnitude of something.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Standard",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2004-05-27",
+                "endDate": null,
+                "changeDescription": "Move to caBIG context as teh preferred Rep class for Measurement",
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "SBREXT",
+                "dateCreated": "2004-05-27",
+                "modifiedBy": "DWARZEL",
+                "dateModified": "2006-10-26",
+                "Concepts": [
+                    {
+                        "longName": "Measurement",
+                        "conceptCode": "C25209",
+                        "definition": "Annotation used to indicate the size or magnitude of something that was determined by comparison to a standard.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "5428053",
+                "version": "1",
+                "longName": "Biospecimen",
+                "context": "GDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5428054",
+                        "version": "1",
+                        "longName": "Sample",
+                        "context": "GDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "10429357",
+                "version": "1",
+                "longName": "GDC (Genomic Data Commons)",
+                "context": "CRDC",
+                "workflowStatus": "DRAFT NEW",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14506028",
+                        "version": "1",
+                        "longName": "Candidate New GDC CDEs",
+                        "context": "CRDC",
+                        "workflowStatus": "DRAFT NEW",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10466053",
+                        "version": "1",
+                        "longName": "Specimen",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "15711259",
+                "version": "1",
+                "longName": "RCI (Rare Cancer Initiative)",
+                "context": "Pediatric Cancer",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "15711266",
+                        "version": "1",
+                        "longName": "Pathology",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "15713367",
+                        "version": "1",
+                        "longName": "Treatment",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "Specimen Longest Dimension",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "greatest_tumor_dimension",
+                "type": "GDC Alt Name",
+                "context": "GDC"
+            },
+            {
+                "name": "longest_dimension",
+                "type": "GDC Alt Name",
+                "context": "GDC"
+            },
+            {
+                "name": "tumor_largest_dimension_diameter",
+                "type": "GDC Alt Name",
+                "context": "GDC"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Longest Dimension",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "GDC"
+            }
+        ]
+    },
+    "apiResponse": {
+        "type": "S"
+    }
+}

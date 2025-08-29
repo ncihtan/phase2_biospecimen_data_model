@@ -1,0 +1,302 @@
+{
+    "DataElement": {
+        "publicId": "5432686",
+        "version": "1",
+        "longName": "Specimen Tumor Cell Percentage Value",
+        "shortName": "percent_tumor_cells",
+        "definition": "Numeric value that represents the percentage of infiltration by tumor cells in a sample.",
+        "context": "GDC",
+        "origin": null,
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Application",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2016-08-26",
+        "endDate": null,
+        "changeDescription": "Created for initial GDC new CDE request. mc 8/26/16 Corrected error in definition from granulocytes to tumor cells. mc 10/12/18",
+        "administrativeNotes": "10/29/24 per Henry/CodeMap task, add alt table, name, csi.LS;",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "COOPERM",
+        "dateCreated": "2016-08-26",
+        "modifiedBy": "SOKKERL",
+        "dateModified": "2024-10-29",
+        "DataElementConcept": {
+            "publicId": "5432096",
+            "version": "1",
+            "longName": "Specimen Malignant Neoplasm Cell Infiltration",
+            "shortName": "2241613v1.0:5432094v1.0",
+            "definition": "A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis._A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas._The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid._The process of the diffusion or accumulation in a tissue or cells of a substance not normal to it or in amounts above normal. (NCI)",
+            "context": "GDC",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2016-08-25",
+            "endDate": null,
+            "changeDescription": "Created for initial GDC new CDE request. mc 8/25/16",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "COOPERM",
+            "dateCreated": "2016-08-25",
+            "modifiedBy": "COOPERM",
+            "dateModified": "2016-09-09",
+            "ObjectClass": {
+                "publicId": "2241613",
+                "version": "1",
+                "longName": "Specimen",
+                "shortName": "C19157",
+                "definition": "Specimen; a bit of tissue or blood or urine that is taken or used for research purposes.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-07-08",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "SHIDED",
+                "dateCreated": "2005-07-08",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2005-07-08",
+                "Concepts": [
+                    {
+                        "longName": "Specimen",
+                        "conceptCode": "C19157",
+                        "definition": "A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "5432094",
+                "version": "1",
+                "longName": "Malignant Neoplasm Cell Infiltration",
+                "shortName": "C9305:C12508:C25754",
+                "definition": "A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.:The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.:The process of the diffusion or accumulation in a tissue or cells of a substance not normal to it or in amounts above normal. (NCI)",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2016-08-25",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "COOPERM",
+                "dateCreated": "2016-08-25",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2016-08-25",
+                "Concepts": [
+                    {
+                        "longName": "Malignant Neoplasm",
+                        "conceptCode": "C9305",
+                        "definition": "A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas, Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "2"
+                    },
+                    {
+                        "longName": "Cell",
+                        "conceptCode": "C12508",
+                        "definition": "The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Infiltration",
+                        "conceptCode": "C25754",
+                        "definition": "The process of the diffusion or accumulation in a tissue or cells of a substance not normal to it or in amounts above normal. (NCI)",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008557",
+                "version": "1",
+                "longName": "Lab Results",
+                "shortName": "LAB_RESULTS",
+                "definition": "the results of laboratory tests.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-27",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "2199529",
+            "version": "1.1",
+            "longName": "Percentage Value",
+            "shortName": "PTG_VAL",
+            "definition": "A fraction or ratio with 100 understood as the denominator._A numerical quantity measured or assigned or computed.",
+            "context": "CCR",
+            "type": "Non-enumerated",
+            "dataType": "NUMBER",
+            "unitOfMeasure": "%",
+            "minLength": null,
+            "maxLength": "5",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": "2",
+            "origin": null,
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2014-09-23",
+            "endDate": null,
+            "changeDescription": "VD v1.1 replaces v1.0 with a name change.",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "REEVESD",
+            "dateCreated": "2014-09-23",
+            "modifiedBy": "SOKKERL",
+            "dateModified": "2025-08-25",
+            "ConceptualDomain": {
+                "publicId": "2008556",
+                "version": "1",
+                "longName": "Assessment Results",
+                "shortName": "ASSESS_RESULTS",
+                "definition": "the results of evaluations of the patient and the patient's disease.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-27",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-27",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            },
+            "RepresentationTerm": {
+                "publicId": "2208119",
+                "version": "1",
+                "longName": "Percentage Value",
+                "shortName": "C25613:C25712",
+                "definition": "Percentage; a fraction or ratio with 100 understood as the denominator.:A numerical quantity measured or assigned or computed.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-03-29",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "SBR",
+                "dateCreated": "2005-03-29",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2005-03-29",
+                "Concepts": [
+                    {
+                        "longName": "Percentage",
+                        "conceptCode": "C25613",
+                        "definition": "A fraction or ratio with 100 understood as the denominator.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Value",
+                        "conceptCode": "C25712",
+                        "definition": "A numerical quantity measured or assigned or computed.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "5428053",
+                "version": "1",
+                "longName": "Biospecimen",
+                "context": "GDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5428324",
+                        "version": "1",
+                        "longName": "Slide",
+                        "context": "GDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "13574489",
+                "version": "1",
+                "longName": "CCDI (Childhood Cancer Data Initiative)",
+                "context": "Pediatric Cancer",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14470394",
+                        "version": "1",
+                        "longName": "Pathology File",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "pathology_file",
+                "type": "CCDI Table",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "percent_tumor",
+                "type": "CCDI Alt Name",
+                "context": "Pediatric Cancer"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "Percent Tumor Cells",
+                "documentText": "Percent Tumor Cells",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "GDC"
+            }
+        ]
+    },
+    "apiResponse": {
+        "type": "S"
+    }
+}

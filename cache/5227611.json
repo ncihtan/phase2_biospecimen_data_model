@@ -1,0 +1,636 @@
+{
+    "DataElement": {
+        "publicId": "5227611",
+        "version": "1",
+        "longName": "Slide Device Component Charge Type",
+        "shortName": "SLIDE_CHARGE_TYP",
+        "definition": "A description of the charge on the glass slide.",
+        "context": "BBRB",
+        "origin": "BPV: Biospecimen Pre-analytical Variables (BPV) Program",
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Qualified",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2016-04-19",
+        "endDate": null,
+        "changeDescription": "2/17/22 JK Designated for reuse by HTAN/SRRS Biospecimen upload DCT, Alt Name, AQT, HTAN/SRRS CSIs.",
+        "administrativeNotes": "2025.5.6 SN added per ticket CADSR0004971. ak 2/24/25 Added AQT and alt SN for caDSR ticket CADSR0004691 cjl.",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "HARTLEYG",
+        "dateCreated": "2016-04-19",
+        "modifiedBy": "KUMMEROA",
+        "dateModified": "2025-05-06",
+        "DataElementConcept": {
+            "publicId": "5219702",
+            "version": "1",
+            "longName": "Slide Device Component Charge",
+            "shortName": "3218906v1.0:2671550v1.0",
+            "definition": "A flat rectangular piece of glass on which specimens can be mounted for microscopic study._The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.",
+            "context": "BBRB",
+            "origin": "BPV: Biospecimen Pre-analytical Variables (BPV) Program",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2016-04-13",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "HARTLEYG",
+            "dateCreated": "2016-04-13",
+            "modifiedBy": "HARTLEYG",
+            "dateModified": "2016-07-29",
+            "ObjectClass": {
+                "publicId": "3218906",
+                "version": "1",
+                "longName": "Slide",
+                "shortName": "C50178",
+                "definition": "A flat rectangular piece of glass on which specimens can be mounted for microscopic study.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2011-03-31",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "WHITES",
+                "dateCreated": "2011-03-31",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2011-03-31",
+                "Concepts": [
+                    {
+                        "longName": "Slide Device",
+                        "conceptCode": "C50178",
+                        "definition": "A flat rectangular piece of glass on which specimens can be mounted for microscopic study.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "2671550",
+                "version": "1",
+                "longName": "Charge",
+                "shortName": "C48050",
+                "definition": "The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2007-08-13",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_CPAS",
+                "dateCreated": "2007-08-13",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2007-08-13",
+                "Concepts": [
+                    {
+                        "longName": "Charge",
+                        "conceptCode": "C48050",
+                        "definition": "The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2230266",
+                "version": "1",
+                "longName": "Tissue Banking",
+                "shortName": "TISSUE BANKING",
+                "definition": "Concepts linked to Tissue Banking and Pathology activities",
+                "context": "SPOREs",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-05-20",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "REEVESD",
+                "dateCreated": "2005-05-20",
+                "modifiedBy": "REEVESD",
+                "dateModified": "2005-05-20"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "5219703",
+            "version": "1",
+            "longName": "Charge Type",
+            "shortName": "5219703v1.0",
+            "definition": "Something distinguishable as an identifiable class based on common qualities.",
+            "context": "BBRB",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "25",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "BPV: Biospecimen Pre-analytical Variables (BPV) Program",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2016-04-13",
+            "endDate": null,
+            "changeDescription": null,
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "HARTLEYG",
+            "dateCreated": "2016-04-13",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2022-02-04",
+            "PermissibleValues": [
+                {
+                    "publicId": "8978644",
+                    "value": "Other (specify)",
+                    "valueDescription": "Other",
+                    "origin": null,
+                    "beginDate": "2016-04-13",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "HARTLEYG",
+                    "dateCreated": "2016-04-13",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2016-04-13",
+                    "ValueMeaning": {
+                        "publicId": "2946060",
+                        "version": "1",
+                        "longName": "Other",
+                        "shortName": "2946060",
+                        "definition": "Different than the one(s) previously specified or mentioned.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2009-09-25",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "1/25/23 added alt name for ticket number CADSR0001948 for CCTG cjl.",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "AHMEDS",
+                        "dateCreated": "2009-09-25",
+                        "modifiedBy": "KUMMEROA",
+                        "dateModified": "2025-08-11",
+                        "Concepts": [
+                            {
+                                "longName": "Other",
+                                "conceptCode": "C17649",
+                                "definition": "Different than the one(s) previously specified or mentioned.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "8978645",
+                    "value": "Uncharged",
+                    "valueDescription": "Uncharged",
+                    "origin": null,
+                    "beginDate": "2016-04-13",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "HARTLEYG",
+                    "dateCreated": "2016-04-13",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2016-04-13",
+                    "ValueMeaning": {
+                        "publicId": "5219704",
+                        "version": "1",
+                        "longName": "Uncharged",
+                        "shortName": "5219704",
+                        "definition": "An operation in which a term denies or inverts the meaning of another term or construction.: The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2016-04-13",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "HARTLEYG",
+                        "dateCreated": "2016-04-13",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Charge",
+                                "conceptCode": "C48050",
+                                "definition": "The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            },
+                            {
+                                "longName": "Negation",
+                                "conceptCode": "C25594",
+                                "definition": "An operation in which a term denies or inverts the meaning of another term or construction.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "No",
+                                "displayOrder": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "8978646",
+                    "value": "Charged",
+                    "valueDescription": "Charge",
+                    "origin": null,
+                    "beginDate": "2016-04-13",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "HARTLEYG",
+                    "dateCreated": "2016-04-13",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2016-04-13",
+                    "ValueMeaning": {
+                        "publicId": "2754195",
+                        "version": "1",
+                        "longName": "Charge",
+                        "shortName": "2754195",
+                        "definition": "The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2008-05-29",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "UMLLOADER_CANANOLAB",
+                        "dateCreated": "2008-05-29",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Charge",
+                                "conceptCode": "C48050",
+                                "definition": "The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9085930",
+                    "value": "Not applicable",
+                    "valueDescription": "Not Applicable",
+                    "origin": null,
+                    "beginDate": "2022-02-04",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2022-02-04",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2022-02-04",
+                    "ValueMeaning": {
+                        "publicId": "5682946",
+                        "version": "1",
+                        "longName": "Not Applicable",
+                        "shortName": "5682946v1.00",
+                        "definition": "Determination of a value is not relevant in the current context.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-02-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "4/24/25 Added Alt Name. sl\r\n2023.8.15 Alt VM added per ticket request CADSR0002731. ak",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-02-27",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-04-25",
+                        "Concepts": [
+                            {
+                                "longName": "Not Applicable",
+                                "conceptCode": "C48660",
+                                "definition": "Determination of a value is not relevant in the current context.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9085931",
+                    "value": "Not recorded",
+                    "valueDescription": "Not Recorded",
+                    "origin": null,
+                    "beginDate": "2022-02-04",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2022-02-04",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2022-02-04",
+                    "ValueMeaning": {
+                        "publicId": "8003225",
+                        "version": "1",
+                        "longName": "Not Recorded",
+                        "shortName": "8003225",
+                        "definition": "The information was not captured or stored.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2022-01-12",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "COLBERTM",
+                        "dateCreated": "2022-01-12",
+                        "modifiedBy": "ONEDATA",
+                        "dateModified": "2022-01-12",
+                        "Concepts": [
+                            {
+                                "longName": "Not Recorded",
+                                "conceptCode": "C185193",
+                                "definition": "The information was not captured or stored.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9085932",
+                    "value": "Unknown",
+                    "valueDescription": "Unknown",
+                    "origin": null,
+                    "beginDate": "2022-02-04",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2022-02-04",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2022-02-04",
+                    "ValueMeaning": {
+                        "publicId": "5682953",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "5682953",
+                        "definition": "Not known, not observed, not recorded, or refused.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-02-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-02-27",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2025-04-17",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2230266",
+                "version": "1",
+                "longName": "Tissue Banking",
+                "shortName": "TISSUE BANKING",
+                "definition": "Concepts linked to Tissue Banking and Pathology activities",
+                "context": "SPOREs",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-05-20",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "REEVESD",
+                "dateCreated": "2005-05-20",
+                "modifiedBy": "REEVESD",
+                "dateModified": "2005-05-20"
+            },
+            "RepresentationTerm": {
+                "publicId": "2234813",
+                "version": "1",
+                "longName": "Type",
+                "shortName": "C25284",
+                "definition": "Type; a subdivision of a particular kind of thing.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Standard",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-06-14",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CAMPBELB",
+                "dateCreated": "2005-06-14",
+                "modifiedBy": "SBR",
+                "dateModified": "2005-09-08",
+                "Concepts": [
+                    {
+                        "longName": "Type",
+                        "conceptCode": "C25284",
+                        "definition": "Something distinguishable as an identifiable class based on common qualities.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "5188870",
+                "version": "1",
+                "longName": "BPV - Tumor Biospecimen Acquisition",
+                "context": "BBRB",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "5405791",
+                        "version": "1",
+                        "longName": "BPV - Tumor Biospecimen Acquisition",
+                        "context": "BBRB",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    },
+                    {
+                        "publicId": "6736421",
+                        "version": "1",
+                        "longName": "FFPE Section-Stain",
+                        "context": "BBRB",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "5855659",
+                "version": "1",
+                "longName": "Biospecimen",
+                "context": "MCL",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7018914",
+                        "version": "1",
+                        "longName": "Biospecimen CDEs",
+                        "context": "MCL",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "7639423",
+                "version": "1",
+                "longName": "SRRS-Standardized Repository of Reference Specimens",
+                "context": "HTAN",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7639046",
+                        "version": "1",
+                        "longName": "SRRS Biospecimen",
+                        "context": "HTAN",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "BBRB",
+                "type": "USED_BY",
+                "context": "BBRB"
+            },
+            {
+                "name": "HTAN",
+                "type": "USED_BY",
+                "context": "HTAN"
+            },
+            {
+                "name": "SLIDE_CHARGE_TYPE",
+                "type": "HTAN Alt Name",
+                "context": "HTAN"
+            },
+            {
+                "name": "MCL",
+                "type": "USED_BY",
+                "context": "MCL"
+            },
+            {
+                "name": "slide_charge_type",
+                "type": "MCL Alt Name",
+                "context": "MCL"
+            },
+            {
+                "name": "LB_LBSPCCND_UNSTAINED",
+                "type": "COG Form Element",
+                "context": "COG"
+            },
+            {
+                "name": "LB_LBMETHOD_UNSTAINED",
+                "type": "COG Form Element",
+                "context": "COG"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "Slide Charge",
+                "documentText": "Slide Charge",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "BBRB"
+            },
+            {
+                "documentName": "HTAN Term",
+                "documentText": "slide type",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "HTAN"
+            },
+            {
+                "documentName": "MCL-Template Name",
+                "documentText": "biospecimen_cdedictionary_v0-2_2021_12_13-metrics.xlsx",
+                "documentType": "Data Collection Template",
+                "url": "https://mcl.nci.nih.gov/resources/standards/mcl-cdes",
+                "context": "MCL"
+            },
+            {
+                "documentName": "MCL-Biospecimen",
+                "documentText": "The charge on the glass slide",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "MCL"
+            },
+            {
+                "documentName": "COG CRF Text 1",
+                "documentText": "Unstained slide type:",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "COG"
+            }
+        ]
+    },
+    "apiResponse": {
+        "type": "S"
+    }
+}

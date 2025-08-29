@@ -1,0 +1,742 @@
+{
+    "DataElement": {
+        "publicId": "8028966",
+        "version": "2",
+        "longName": "Specimen Laterality Type",
+        "shortName": "8028965v1.00:6848466v2.00",
+        "definition": "Designates the side of the organ or body structure from which a specimen was obtained.",
+        "context": "HTAN",
+        "origin": "HTAN:Human Tumor Atlas Network",
+        "workflowStatus": "RELEASED",
+        "registrationStatus": "Standard",
+        "latestVersionIndicator": "Yes",
+        "beginDate": "2022-02-07",
+        "endDate": null,
+        "changeDescription": "3/31/22 jk released for HTAN use. 2/7/22 jk created for SRRS Biospecimen upload data set.",
+        "administrativeNotes": "5/20/25 Classified in GDC Candidate CSI, added alt name, def, per June 2025 GDC DD. sl;\r\n12/19/24 Added NCCR alts, CSI. mr; \r\n11/25/24 upd RS to Standard per 11/6/24 SC mtg approval.jk; \r\n10/17/24 Upd CRDC def to match CDE def. mr; \r\n10/15/24 Released in conjunction w CDE 15157293 Disease Laterality. mr; \r\n10/11/24 Upd def to align w CDE 15157293 Disease Laterality Type. mr\r\n10/7/24 Added CRDC std CSI, alt name, alt def. mr;\r\n9/26/24 versioned to reuse as CRDC Standard CDE per RFC71; align PVs to RFC using  VD 6848466 v2, upd CDE LN and PQT to Specimen Laterality. jk",
+        "unresolvedIssues": null,
+        "deletedIndicator": "No",
+        "createdBy": "JKNABLE",
+        "dateCreated": "2024-09-26",
+        "modifiedBy": "SLAUER",
+        "dateModified": "2025-05-20",
+        "DataElementConcept": {
+            "publicId": "8028965",
+            "version": "1",
+            "longName": "Biospecimen Laterality",
+            "shortName": "2859635v1.0:2177679v1.0",
+            "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products._Dominant use or manifestations of one side of the body versus the other; referring to a side of the body or of a structure.",
+            "context": "HTAN",
+            "origin": "HTAN:Human Tumor Atlas Network",
+            "workflowStatus": "RELEASED",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2022-02-07",
+            "endDate": null,
+            "changeDescription": "3/31/22 jk released for HTAN use. 2/7/22 jk created for SRRS Biospecimen upload data set.",
+            "administrativeNotes": null,
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "KNABLEJ",
+            "dateCreated": "2022-02-07",
+            "modifiedBy": "KNABLEJ",
+            "dateModified": "2022-03-31",
+            "ObjectClass": {
+                "publicId": "2859635",
+                "version": "1",
+                "longName": "Biospecimen",
+                "shortName": "C70699",
+                "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2009-04-01",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "UMLLOADER_TAVERNA",
+                "dateCreated": "2009-04-01",
+                "modifiedBy": "ONEDATA",
+                "dateModified": "2009-04-01",
+                "Concepts": [
+                    {
+                        "longName": "Biospecimen",
+                        "conceptCode": "C70699",
+                        "definition": "Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "Property": {
+                "publicId": "2177679",
+                "version": "1",
+                "longName": "Laterality",
+                "shortName": "Laterality",
+                "definition": "Behavioral manifestations of cerebral dominance in which there is preferential use and superior functioning of either the left or the right side, as in the preferred use of the right hand or right foot.",
+                "context": "CCR",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2003-04-10",
+                "endDate": null,
+                "changeDescription": "Updated Concept Code AA",
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CCR_GENERIC",
+                "dateCreated": "2003-04-10",
+                "modifiedBy": "SBR",
+                "dateModified": "2005-03-29",
+                "Concepts": [
+                    {
+                        "longName": "Laterality",
+                        "conceptCode": "C25185",
+                        "definition": "Dominant use or manifestations of one side of the body versus the other; referring to a side of the body or of a structure.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            },
+            "ConceptualDomain": {
+                "publicId": "2008547",
+                "version": "1",
+                "longName": "Specimen Characteristics",
+                "shortName": "SPEC_CHAR",
+                "definition": "attributes of a patient's laboratory sample, including the source, condition, and fixative.",
+                "context": "CTEP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2002-12-19",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "MSUPLEY",
+                "dateCreated": "2002-12-19",
+                "modifiedBy": "SBR",
+                "dateModified": "2003-10-29"
+            }
+        },
+        "ValueDomain": {
+            "publicId": "6848466",
+            "version": "2",
+            "longName": "Laterality Type",
+            "shortName": "LAT_CAT",
+            "definition": "Dominant use or manifestations of one side of the body versus the other; referring to a side of the body or of a structure._Something distinguishable as an identifiable class based on common qualities.",
+            "context": "OCCPR",
+            "type": "Enumerated",
+            "dataType": "CHARACTER",
+            "minLength": null,
+            "maxLength": "20",
+            "minValue": null,
+            "maxValue": null,
+            "decimalPlace": null,
+            "origin": "CPTAC: Clinical Proteomic Tumor Analysis Consortium",
+            "workflowStatus": "DRAFT MOD",
+            "registrationStatus": "Application",
+            "latestVersionIndicator": "Yes",
+            "beginDate": "2019-08-08",
+            "endDate": null,
+            "changeDescription": "2/13/20 jk added RS.  2/29/20 jk released; assoc with released CDE.  8/8/19 jk created for CPTAC GBM, PRAD, UVM Baseline CRFs; Not specified and Midline for GBM. 5/3/21 ls added unknown PV. ls",
+            "administrativeNotes": "10/11/24 Added Not Applicable for C3DC. mr; \r\n9/26/24 revised rep term, retained PVs for CRDC RFC 71- Laterality CDEs.  VD used by CPTAC/PDC and 2 Ped CDEs, all CDEs versioned.  jk  \r\n8/13/24 Upd case for Not Specified for BP. mr; \r\n3/14/23 Added Not Reported for use by PCDC. mr",
+            "unresolvedIssues": null,
+            "deletedIndicator": "No",
+            "createdBy": "JKNABLE",
+            "dateCreated": "2024-09-26",
+            "modifiedBy": "COLBERTM",
+            "dateModified": "2024-10-11",
+            "PermissibleValues": [
+                {
+                    "publicId": "9174115",
+                    "value": "Not Specified",
+                    "valueDescription": "Unspecified",
+                    "origin": null,
+                    "beginDate": "2019-08-08",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "KNABLEJ",
+                    "dateCreated": "2024-09-26",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-09-26",
+                    "ValueMeaning": {
+                        "publicId": "5682959",
+                        "version": "1",
+                        "longName": "Unspecified",
+                        "shortName": "5682959",
+                        "definition": "Not stated explicitly or in detail.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-02-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-02-27",
+                        "modifiedBy": "SBR",
+                        "dateModified": "2018-01-19",
+                        "Concepts": [
+                            {
+                                "longName": "Unspecified",
+                                "conceptCode": "C38046",
+                                "definition": "Not stated explicitly or in detail.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174116",
+                    "value": "Midline",
+                    "valueDescription": "Midline",
+                    "origin": null,
+                    "beginDate": "2019-08-08",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "KNABLEJ",
+                    "dateCreated": "2024-09-26",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-09-26",
+                    "ValueMeaning": {
+                        "publicId": "3113474",
+                        "version": "1",
+                        "longName": "Midline",
+                        "shortName": "3113474",
+                        "definition": "A medial line, especially the medial line or medial plane of the body (or some part of the body).",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2010-06-22",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "REEVESD",
+                        "dateCreated": "2010-06-22",
+                        "modifiedBy": "SOKKERL",
+                        "dateModified": "2024-11-05",
+                        "Concepts": [
+                            {
+                                "longName": "Midline",
+                                "conceptCode": "C81170",
+                                "definition": "A medial line, especially the medial line or medial plane of the body (or some part of the body).",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174117",
+                    "value": "Bilateral",
+                    "valueDescription": "Bilateral",
+                    "origin": null,
+                    "beginDate": "2002-02-11",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "KNABLEJ",
+                    "dateCreated": "2024-09-26",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-09-26",
+                    "ValueMeaning": {
+                        "publicId": "2558284",
+                        "version": "1",
+                        "longName": "Bilateral",
+                        "shortName": "2558284",
+                        "definition": "Affecting both the right and left sides of the body.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2002-02-13",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "SBR",
+                        "dateCreated": "2002-02-13",
+                        "modifiedBy": "MMADDINENI",
+                        "dateModified": "2025-01-15",
+                        "Concepts": [
+                            {
+                                "longName": "Bilateral",
+                                "conceptCode": "C13332",
+                                "definition": "Affecting both sides of the body or a matched pair of organs.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174118",
+                    "value": "Left",
+                    "valueDescription": "Left",
+                    "origin": null,
+                    "beginDate": "2002-02-11",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "KNABLEJ",
+                    "dateCreated": "2024-09-26",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-09-26",
+                    "ValueMeaning": {
+                        "publicId": "2574089",
+                        "version": "1",
+                        "longName": "Left",
+                        "shortName": "2574089",
+                        "definition": "Left; being or located on or directed toward the side of the body to the west when facing north.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2003-11-14",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "SBREXT",
+                        "dateCreated": "2003-11-14",
+                        "modifiedBy": "MMADDINENI",
+                        "dateModified": "2025-01-15",
+                        "Concepts": [
+                            {
+                                "longName": "Left",
+                                "conceptCode": "C25229",
+                                "definition": "Being or located on or directed toward the side of the body to the west when facing north.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174119",
+                    "value": "Right",
+                    "valueDescription": "Right",
+                    "origin": null,
+                    "beginDate": "2002-02-11",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "KNABLEJ",
+                    "dateCreated": "2024-09-26",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-09-26",
+                    "ValueMeaning": {
+                        "publicId": "2574088",
+                        "version": "1",
+                        "longName": "Right",
+                        "shortName": "2574088",
+                        "definition": "Right; being or located on or directed toward the side of the body to the east when facing north.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2003-11-14",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": null,
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "SBREXT",
+                        "dateCreated": "2003-11-14",
+                        "modifiedBy": "MMADDINENI",
+                        "dateModified": "2025-01-15",
+                        "Concepts": [
+                            {
+                                "longName": "Right",
+                                "conceptCode": "C25228",
+                                "definition": "Being or located on or directed toward the side of the body to the east when facing north.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174120",
+                    "value": "Unknown",
+                    "valueDescription": "Unknown",
+                    "origin": null,
+                    "beginDate": "2021-05-04",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "SOKKERL",
+                    "dateCreated": "2024-09-26",
+                    "modifiedBy": "ONEDATA",
+                    "dateModified": "2024-09-26",
+                    "ValueMeaning": {
+                        "publicId": "5682953",
+                        "version": "1",
+                        "longName": "Unknown",
+                        "shortName": "5682953",
+                        "definition": "Not known, not observed, not recorded, or refused.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-02-27",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-02-27",
+                        "modifiedBy": "COLBERTM",
+                        "dateModified": "2025-04-17",
+                        "Concepts": [
+                            {
+                                "longName": "Unknown",
+                                "conceptCode": "C17998",
+                                "definition": "Not known, observed, recorded; or reported as unknown by the data contributor.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174121",
+                    "value": "Not Reported",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2023-03-14",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-09-26",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-09-26",
+                    "ValueMeaning": {
+                        "publicId": "5612322",
+                        "version": "1",
+                        "longName": "Not Reported",
+                        "shortName": "5612322v1.00",
+                        "definition": "Not provided or available.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2017-01-03",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n10/10/23 changed Long Name from \"Not Stated\" to match NCIt Preferred name and current caDSR concept Long Name of \"Not Reported\" per Brenda.Janice . LS",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "ALEYR",
+                        "dateCreated": "2017-01-03",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Reported",
+                                "conceptCode": "C43234",
+                                "definition": "Not provided or available.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "publicId": "9174833",
+                    "value": "Not Applicable",
+                    "valueDescription": null,
+                    "origin": null,
+                    "beginDate": "2024-10-11",
+                    "endDate": null,
+                    "deletedIndicator": "No",
+                    "createdBy": "COLBERTM",
+                    "dateCreated": "2024-10-11",
+                    "modifiedBy": "COLBERTM",
+                    "dateModified": "2024-10-11",
+                    "ValueMeaning": {
+                        "publicId": "7590024",
+                        "version": "1",
+                        "longName": "Not Applicable",
+                        "shortName": "7590024",
+                        "definition": "Determination of a value is not relevant in the current context.",
+                        "context": "NCIP",
+                        "origin": null,
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application",
+                        "latestVersionIndicator": "Yes",
+                        "beginDate": "2021-03-04",
+                        "endDate": null,
+                        "changeDescription": null,
+                        "administrativeNotes": "3/4/25 Added alt VM names per RFC 26 CR 1. sl;\r\n7/8/22 added alt name of NA for CCTG cjl;",
+                        "unresolvedIssues": null,
+                        "deletedIndicator": "No",
+                        "createdBy": "MORENOC",
+                        "dateCreated": "2021-03-04",
+                        "modifiedBy": "SLAUER",
+                        "dateModified": "2025-03-04",
+                        "Concepts": [
+                            {
+                                "longName": "Not Applicable",
+                                "conceptCode": "C48660",
+                                "definition": "Determination of a value is not relevant in the current context.",
+                                "evsSource": "NCI_CONCEPT_CODE",
+                                "primaryIndicator": "Yes",
+                                "displayOrder": "0"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ConceptualDomain": {
+                "publicId": "2435018",
+                "version": "1",
+                "longName": "Clinical or Research Activity",
+                "shortName": "C16203",
+                "definition": "Any specific activity undertaken during the course of a clinical study or research protocol.",
+                "context": "NCIP",
+                "origin": "NCI Thesaurus",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2005-12-06",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "CURTIST",
+                "dateCreated": "2005-12-06",
+                "modifiedBy": "SBR",
+                "dateModified": "2006-12-20"
+            },
+            "RepresentationTerm": {
+                "publicId": "15157275",
+                "version": "1",
+                "longName": "Laterality Type",
+                "shortName": "15157275v1.00",
+                "definition": "Dominant use or manifestations of one side of the body versus the other; referring to a side of the body or of a structure._Something distinguishable as an identifiable class based on common qualities.",
+                "context": "NCIP",
+                "origin": null,
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "latestVersionIndicator": "Yes",
+                "beginDate": "2024-09-26",
+                "endDate": null,
+                "changeDescription": null,
+                "administrativeNotes": null,
+                "unresolvedIssues": null,
+                "deletedIndicator": "No",
+                "createdBy": "JKNABLE",
+                "dateCreated": "2024-09-26",
+                "modifiedBy": "JKNABLE",
+                "dateModified": "2024-09-26",
+                "Concepts": [
+                    {
+                        "longName": "Laterality",
+                        "conceptCode": "C25185",
+                        "definition": "Dominant use or manifestations of one side of the body versus the other; referring to a side of the body or of a structure.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "No",
+                        "displayOrder": "1"
+                    },
+                    {
+                        "longName": "Type",
+                        "conceptCode": "C25284",
+                        "definition": "Something distinguishable as an identifiable class based on common qualities.",
+                        "evsSource": "NCI_CONCEPT_CODE",
+                        "primaryIndicator": "Yes",
+                        "displayOrder": "0"
+                    }
+                ]
+            }
+        },
+        "ClassificationSchemes": [
+            {
+                "publicId": "7576399",
+                "version": "1",
+                "longName": "HTAN Biospecimen CDEs",
+                "context": "HTAN",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7577840",
+                        "version": "1",
+                        "longName": "Tier 2 Assay-specific",
+                        "context": "HTAN",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "7639423",
+                "version": "1",
+                "longName": "SRRS-Standardized Repository of Reference Specimens",
+                "context": "HTAN",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "7639046",
+                        "version": "1",
+                        "longName": "SRRS Biospecimen",
+                        "context": "HTAN",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "10429357",
+                "version": "1",
+                "longName": "GDC (Genomic Data Commons)",
+                "context": "CRDC",
+                "workflowStatus": "DRAFT NEW",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14506028",
+                        "version": "1",
+                        "longName": "Candidate New GDC CDEs",
+                        "context": "CRDC",
+                        "workflowStatus": "DRAFT NEW",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "10466051",
+                "version": "1",
+                "longName": "All CRDC Standard CDEs",
+                "context": "CRDC",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "10466053",
+                        "version": "1",
+                        "longName": "Specimen",
+                        "context": "CRDC",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            },
+            {
+                "publicId": "13954629",
+                "version": "1",
+                "longName": "NCCR (National Childhood Cancer Registry)",
+                "context": "Pediatric Cancer",
+                "workflowStatus": "RELEASED",
+                "registrationStatus": "Application",
+                "ClassificationSchemeItems": [
+                    {
+                        "publicId": "14737351",
+                        "version": "1",
+                        "longName": "Diagnosis",
+                        "context": "Pediatric Cancer",
+                        "workflowStatus": "RELEASED",
+                        "registrationStatus": "Application"
+                    }
+                ]
+            }
+        ],
+        "AlternateNames": [
+            {
+                "name": "LATERALITY",
+                "type": "HTAN Alt Name",
+                "context": "HTAN"
+            },
+            {
+                "name": "Specimen Laterality",
+                "type": "CRDC Alt Name",
+                "context": "CRDC"
+            },
+            {
+                "name": "BELAT_SPD",
+                "type": "OID, Theradex",
+                "context": "Theradex"
+            },
+            {
+                "name": "Tumor Laterality",
+                "type": "NCCR Alt Name",
+                "context": "Pediatric Cancer"
+            },
+            {
+                "name": "SPEC_LAT",
+                "type": "COG Form Element",
+                "context": "COG"
+            },
+            {
+                "name": "biospecimen_laterality",
+                "type": "GDC Alt Name",
+                "context": "GDC"
+            }
+        ],
+        "ReferenceDocuments": [
+            {
+                "documentName": "PQT",
+                "documentText": "Specimen Laterality",
+                "documentType": "Preferred Question Text",
+                "url": null,
+                "context": "HTAN"
+            },
+            {
+                "documentName": "HTAN Term",
+                "documentText": "Specimen Laterality",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "HTAN"
+            },
+            {
+                "documentName": "Theradex - 1",
+                "documentText": "Laterality",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "Theradex"
+            },
+            {
+                "documentName": "COG CRF Text 1",
+                "documentText": "Specimen Laterality:",
+                "documentType": "Alternate Question Text",
+                "url": null,
+                "context": "COG"
+            }
+        ]
+    },
+    "apiResponse": {
+        "type": "S"
+    }
+}
