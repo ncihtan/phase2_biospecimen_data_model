@@ -1,0 +1,11 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+-150 degrees C	Minus 150 Degrees Celsius	A temperature of minus 150 celsius.
+-20 Degrees C	Minus 20 Degrees Celsius	A temperature of minus 20 celsius.
+-70 degrees C	Minus 70 Degrees Celsius	A temperature of minus 70 celsius.
+-80 Degrees C	Minus 80 Degrees Celsius	A temperature of minus 80 celsius.
+25 Degrees C	25 Degrees Celsius	A temperature of 25 celsius.
+4 Degrees C	4 Degrees Celsius	A temperature of 4 celsius.
+Ambient Temperature	Specimen at Room Temperature	A specimen that has been subjected to and adjusted to the average ambient temperature of a room, usually considered to be around 20 degrees C (68 degrees F).
+Not Applicable	Not applicable	Determination of a value is not relevant in the current context.
+Not Reported	Not Reported	Not provided or available.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.

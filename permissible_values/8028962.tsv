@@ -1,0 +1,15 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Cryopreserved	Cryopreservation	Preservation of cells, tissues, organs, or embryos by storage at low temperatures.
+Cytospin Slide	Cytospin Slide	A microscope slide prepared by depositing cells directly onto a slide by centrifugation. The cytocentrifuge spins at an angle, at low speeds, allowing the cells to adhere to the slide in a monolayer format.
+Fixation	Fixation	The chemical preservation of a substance to maintain structural and/or molecular features of that substance as they exist in the living entity.
+Fresh	Fresh Specimen	Tissue which has not been exposed to a fixative solution.
+Fresh Dissociated	Fresh Dissociated Tissue Preparation	A tissue preparation process that takes fresh tissue and dissociates it into single cell suspensions.
+Fresh Dissociated and Single Cell Sorted	Fresh Dissociated Tissue Preparation, Single Cell Sorted	A tissue preparation process that separates fresh dissociated tissue cells into cell populations by single cell sorting.
+Fresh Dissociated and Single Cell Sorted into Plates	Fresh Dissociated Tissue Preparation, Single Cell Sorted into Plates	A tissue preparation process that takes dissociated, sorted cells and distributes them into cell propagation plates.
+Frozen	Frozen Specimen	A specimen that has been subjected to and immobilized by severe cold.
+Not Applicable	Not applicable	Determination of a value is not relevant in the current context.
+Not Reported	Not Reported	Not provided or available.
+Refrigerated	Refrigerated	A specimen that has been kept or preserved at a low temperature in a refrigerator.
+Refrigerated Vacuum Chamber	Refrigerated Vacuum Chamber	A device designed to maintain a vacuum at a below-ambient temperature.
+Snap Frozen	Quick Freeze	To freeze rapidly so as to preserve structure and prevent ice crystal formation.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.

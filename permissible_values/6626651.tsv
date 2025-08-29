@@ -1,0 +1,21 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Autopsy	Autopsy	Autopsy; an examination and dissection of a dead body to determine cause of death or the changes produced by disease.
+Biopsy	Biopsy	The removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.
+Blood draw	Blood Sample	A small volume of blood removed for testing or storage.
+Core needle biopsy	Core Biopsy	The removal of a tissue sample using a needle with a relatively large diameter, for microscopic examination.
+Excisional Biopsy	Excisional Biopsy	A surgical procedure in which an entire lesion is removed for microscopic examination.
+Fine needle aspirate	Fine-Needle Aspiration	The removal of tissue or fluid with a thin needle for examination under a microscope.
+Forceps Biopsy	Forceps Biopsy	The removal of a tissue sample using a specially-designed endoscope consisting of a slender flexible forceps with movable cup-shaped jaws. The jaws are closed around the tissue to be collected and while closed the forceps are withdrawn to capture the biopsy tissue.
+Incisional Biopsy	Incisional Biopsy	A surgical procedure in which part of a lesion is removed for microscopic examination.
+Lymphadenectomy (regional nodes)	Lymphadenectomy Regional Lymph Node	Surgical removal of lymph nodes, usually done to assess the spread of cancer.: A lymph node that drains lymph from a region of interest.
+Not applicable	Not Applicable	Determination of a value is not relevant in the current context.
+Not reported	Not Reported	Not provided or available.
+Not specified	Unspecified	Not stated explicitly or in detail.
+Other	Other	Different than the one(s) previously specified or mentioned.
+Pancreaticoduodenectomy	Pancreaticoduodenectomy	Surgical excision of all or part of the pancreas and duodenum.
+Punch biopsy	Punch Biopsy	Removal of a disk of skin tissue, for microscopic examination, using a punch.
+Re-excision	Re-excision	A surgical procedure to remove the remaining abnormal tissues from the body, not completely removed in an earlier attempt.
+Sentinel node biopsy	Sentinel Lymph Node Biopsy	Surgical removal and examination of the sentinel node, the lymph node which is first in receiving the lymphatic drainage of a specified anatomic location and is most likely to be affected by the lymphatic spread of cancer.
+Shave biopsy	Shave Biopsy	Removal skin tissue, for microscopic examination, using a blade oriented in the horizontal plane of the skin surface.
+Surgical Resection	Excision	The surgical removal of a lesion, often as part of a biopsy and with healthy margins.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.

@@ -1,0 +1,5 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+1	Low Grade	Used to describe tumor samples that exhibit well to moderately well differentiated cells. They are generally expected to be slow growing and less aggressive.
+2	Intermediate Grade	A term referring to the degree of differentiation of a malignant neoplasm and indicating that it is moderately differentiated.
+3	High Grade	Used to describe tumor samples that exhibit poorly differentiated or undifferentiated cells. They are generally expected to be fast growing and aggressive.
+99	Unknown	Not known, not observed, not recorded, or refused.

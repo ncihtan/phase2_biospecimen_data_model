@@ -1,0 +1,7 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Charged	Charge	The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.
+Not applicable	Not Applicable	Determination of a value is not relevant in the current context.
+Not recorded	Not Recorded	The information was not captured or stored.
+Other (specify)	Other	Different than the one(s) previously specified or mentioned.
+Uncharged	Uncharged	An operation in which a term denies or inverts the meaning of another term or construction.: The quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.
+Unknown	Unknown	Not known, not observed, not recorded, or refused.

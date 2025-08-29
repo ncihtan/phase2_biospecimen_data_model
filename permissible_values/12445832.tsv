@@ -1,0 +1,20 @@
+PERMITTED_VALUE	LONG_NAME	DEFINITION
+Ascites	Ascites	The accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.
+Blood	Blood	Blood circulating throughout the body.
+Body Fluid or Substance	Body Fluid or Substance	Liquid and semi liquid substances produced by living organisms to fulfill specific functions or excreted as waste; does not include hormones or enzymes.
+Bone Marrow	Bone Marrow	The soft, sponge-like tissue in the center of bones that produces white blood cells, red blood cells, and platelets.
+Cell Line	Cell Line	A permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.
+Cells	Cell	The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.
+Central Nervous System	Central Nervous System	The main information-processing organs of the nervous system, consisting of the brain, spinal cord, and meninges.
+DNA	DNA	A long linear double-stranded polymer formed from nucleotides attached to a deoxyribose backbone and found in the nucleus of a cell; associated with the transmission of genetic information.
+Mouth Rinse	Mouth Rinse Specimen	A sample consisting of biological material from the buccal cavity. A collection solution is introduced into the mouth, swished around, and then collected.
+Not Reported	Not Reported	Not provided or available.
+RNA	Ribonucleic Acid	Single-stranded long chain of nucleotides containing ribose. It is the end product of DNA transcription by the enzyme RNA polymerase. It is essential in protein synthesis.
+Saliva	Saliva	The watery fluid in the mouth made by the salivary glands. Saliva moistens food to help digestion and it helps protect the mouth against infections.
+Skin	Skin	An organ that constitutes the external surface of the body.  It consists of the epidermis, dermis, and skin appendages.
+Sputum	Sputum	Material containing mucus, cellular debris, microorganisms and sometimes blood or pus.  It is ejected through the mouth from the lungs, bronchi, and trachea.
+Stool	Feces	The material discharged from the bowel during defecation.  It consists of undigested food, intestinal mucus, epithelial cells, and bacteria.
+Tissue	Tissue	An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.
+Unknown	Unknown	Not known, observed, recorded; or reported as unknown by the data contributor.
+Urine	Urine	The fluid that is excreted by the kidneys.  It is stored in the bladder and discharged through the urethra.
+Xenograft	Xenograft	The transfer of cells, tissues, or organs from a donor into a recipient of another species.
